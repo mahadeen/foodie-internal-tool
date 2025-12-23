@@ -1,0 +1,35 @@
+{
+    "count": 30,
+    "avg order value": 35.18,
+    "avg daily order count": 4.29,
+    "avg hourly revenue": 6.28,
+    "completion rate": "86 %",
+    "top_2_restaurants": [
+        {
+            "restaurant_id": 30,
+            "restaurant_name": "Mansaf Kingdom",
+            "total_revenue": 375.0,
+            "orders_count": 5
+        },
+        {
+            "restaurant_id": 1,
+            "restaurant_name": "Foodie Burger",
+            "total_revenue": 266.7,
+            "orders_count": 7
+        }
+    ],
+    "least_2_restaurants": [
+        {
+            "restaurant_id": 15,
+            "restaurant_name": "Falafel Al-Quds",
+            "total_revenue": 45.7,
+            "orders_count": 6
+        },
+        {
+            "restaurant_id": 5,
+            "restaurant_name": "Shawarma Station",
+            "total_revenue": 102.65,
+            "orders_count": 6
+        }
+    ]
+}
