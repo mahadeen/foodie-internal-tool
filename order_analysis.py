@@ -121,3 +121,14 @@ def least_performing_restaurants(orders):
 
 if __name__ == "__main__":
     main()
+    
+
+def run_analysis(input_path: str, output_path: str = "output.json"):
+    with open(input_path, "r") as f:
+        data = json.load(f)
+
+    orders = data.get("orders", [])
+    report = get_report(orders)
+
+    with open(output_path, "w") as f:
+        json.dump(report, f, indent=4)
